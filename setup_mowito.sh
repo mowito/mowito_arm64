@@ -26,7 +26,7 @@ if [ $# -eq 0 ]
   then
     echo "defaulting the ros version to noetic and arch to arm64"
     ros_version=noetic
-    arch_version=armd64
+    arch_version=arm64
 fi
 
 if [ $# -eq 1 ]
